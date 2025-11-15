@@ -1,0 +1,36 @@
+<!-- frontend/index.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>GCS — Live Telemetry</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Ground Control Station — Live</h1>
+    <div class="status">
+      <span id="team">Team: —</span>
+      <span id="state">State: —</span>
+      <span id="time">Mission t: — s</span>
+      <span id="sats">GNSS sats: —</span>
+    </div>
+  </header>
+  <main>
+    <div class="grid">
+      <canvas id="altChart"></canvas>
+      <canvas id="presChart"></canvas>
+      <canvas id="tempChart"></canvas>
+      <canvas id="voltChart"></canvas>
+      <canvas id="satsChart"></canvas>
+      <canvas id="accChart"></canvas>
+    </div>
+    <section class="log">
+      <h2>Last packet</h2>
+      <pre id="lastPacket"></pre>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

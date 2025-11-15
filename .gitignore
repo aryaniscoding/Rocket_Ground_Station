@@ -1,0 +1,44 @@
+# CMake build artifacts
+/backend/build/
+/backend/CMakeFiles/
+/backend/cmake_install.cmake
+/backend/CMakeCache.txt
+
+# Visual Studio / MSVC
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.userprefs
+*.opendb
+*.VC.db
+/.vs/
+
+# Binary outputs
+/backend/build/Release/gcs_backend.exe
+/backend/build/Debug/gcs_backend.exe
+/backend/build/*/*.exe
+/backend/build/*/*.dll
+/backend/build/*/*.lib
+/backend/build/*/*.pdb
+
+# Logs and generated telemetry
+/backend/build/Flight_*.csv
+/backend/build/Release/Flight_*.csv
+Flight_*.csv
+
+# Python cache (for frontend server)
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.gitgnore
