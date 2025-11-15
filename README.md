@@ -1,7 +1,3 @@
-Here’s a ready‑to-use `README.md` and `.gitignore` for your GCS repo.
-
-***
-
 ### `README.md`
 
 ```markdown
@@ -206,4 +202,5 @@ Add your chosen license here (e.g. MIT, Apache‑2.0).
 ```
 
 ***
+
 
